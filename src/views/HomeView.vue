@@ -74,7 +74,7 @@ export default {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
-              Authorization: `Bearer ${process.env.VUE_APP_OPENAI_API_KEY}`, // Use your OpenAI API key here
+              Authorization: `Bearer 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`, // Use your OpenAI API key here
             },
             body: JSON.stringify({
               model: "gpt-4", // Specify the model you want to use
